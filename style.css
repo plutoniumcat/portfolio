@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+
 * {
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
@@ -11,23 +12,26 @@ body {
 
 header {
     width: 100%;
-    height: 100px;
+    height: 10%;
     background-color: aquamarine;
 }
 
 nav {
-    max-width: 600px;
+    width: 600px;
     font-size: 2em;
     display: flex;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 nav li {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
+    display: inline-flex;
 }
 
 nav li:hover {
