@@ -23,11 +23,11 @@ header {
 }
 
 #logo {
-    width: 150px;
+    width: 10vw;
 }
 
 nav {
-    width: 600px;
+    width: 85vw;
     font-size: 2em;
     display: flex;
 }
@@ -86,4 +86,14 @@ main {
     height: 100px;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    #logo {
+        width: 12vh;
+    }
+    
+    nav {
+        font-size: 1em;
+    }
 }
