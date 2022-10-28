@@ -68,9 +68,6 @@ main {
     background-color: var(--secondary-color);
 }
 
-.entry-container {
-}
-
 .entry {
     width: 300px;
     height: 300px;
@@ -98,22 +95,25 @@ main {
 
 .blog-prev {
     background-color: var(--secondary-color);
-    border-radius: 5%;
+    border-radius: 10px;
     margin: 10px;
     width: 45%;
     display: flex;
 }
 
 .blog-img-container {
-    width: 40%;
+    width: 45%;
 }
 
 .blog-img-container img {
-    width: 300px;
+    width: 100%;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .blog-text-container {
     width: 50%;
+    margin-left: 1em;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 600px) {
@@ -123,5 +123,14 @@ main {
     
     nav {
         font-size: 1em;
+    }
+
+    .blog-prev {
+        width: 90%;
+        height: 7.25em;
+    }
+
+    .blog-text-container h2 {
+        margin-bottom: -0.4em;
     }
 }
