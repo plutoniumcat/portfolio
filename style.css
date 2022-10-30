@@ -1,3 +1,13 @@
+/* TODO 
+fix slight offset from top left on mobile view
+remove grey background from github social icon
+change pixel measurements to em
+create pages for blog posts
+fix centered text on message input
+add dot texture to header
+fix hover effect on navbar
+make koi pond*/
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 :root {
@@ -70,10 +80,69 @@ main {
 }
 
 .entry {
+    background-color: var(--main-color);
     width: 300px;
     height: 300px;
     margin-top: 30px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fish-container {
+    width: fit-content;
+    transform: rotate(90deg);
+    margin-top: 60px;
+    offset-path: path("M-120,0a120,120 0 1,0 240,0a120,120 0 1,0 -240,0");
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.fish {
+    background-color: white;
+    width: 20px;
+    height: 75px;
+    border-radius: 50% 50% 50% 50% / 33% 33% 67% 67%;
+    animation-name: swim;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fish-spot {
+    border-radius: 50%;
+    background-color: orangered;
+    width: 15px;
+    height: 15px;
+}
+
+.fish-tail {
+    width: 15px;
+    height: 15px;
+}
+
+@keyframes swim {
+    0% {
+        border-radius: 50% 50% 100% 0% / 33% 33% 67% 67%;
+    }
+    100% {
+        border-radius: 50% 50% 0% 100% / 33% 33% 67% 67%;
+    }
+}
+
+@keyframes circle {
+    0% {
+        offset-distance: 0%;
+    }
+    100% {
+        offset-distance: 100%;
+    }
 }
 
 .social-container {
