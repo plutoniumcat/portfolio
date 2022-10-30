@@ -141,7 +141,50 @@ main {
     overflow: hidden;
 }
 
-@media screen and (max-width: 600px) {
+#contact-main {
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 60%;
+}
+
+form label {
+    font-size: 1.5em;
+    display: none;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin: 0.5em 0 1em 0;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    font-size: 1.5em;
+}
+
+form input:focus {
+    outline: none;
+    border-bottom-style: none;
+    border-radius: 10px;
+    background-color: var(--main-color);
+}
+
+form #message {
+    height: 10em;
+    text-align: start;
+}
+
+form #submit {
+    background-color: var(--main-color);
+    border-style: groove;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 640px) {
     #logo {
         width: 12vh;
     }
@@ -167,5 +210,13 @@ main {
 
     .blog-text-container h2 {
         margin-bottom: -0.4em;
+    }
+
+    form {
+        width: 70%;
+    }
+
+    form input {
+        font-size: 1em;
     }
 }
