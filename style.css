@@ -89,6 +89,10 @@ main {
     margin-right: 30px;
 }
 
+.social img {
+    width: 100%;
+}
+
 .button {
     background-color: var(--main-color);
     border-radius: 10px;
