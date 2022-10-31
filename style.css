@@ -6,7 +6,7 @@ create pages for blog posts
 fix centered text on message input
 add dot texture to header
 fix hover effect on navbar
-make koi pond*/
+crop and resize logo */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -115,7 +115,7 @@ main {
     margin-top: 60px;
     offset-path: path("M-120,0a120,120 0 1,0 240,0a120,120 0 1,0 -240,0");
     animation-name: circle;
-    animation-duration: 10s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
 }
 
