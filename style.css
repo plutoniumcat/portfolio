@@ -6,7 +6,8 @@ fix centered text on message input
 add dot texture to header
 fix hover effect on navbar
 crop and resize logo 
-404 page */
+404 page 
+make blog cards clickable  */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -232,6 +233,19 @@ main {
     width: 50%;
     margin-left: 1em;
     overflow: hidden;
+}
+
+.blog-text-container a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.blog-text-container h2 {
+    margin-top: 0.5em;
+}
+
+.blog-text-container p {
+    margin-top: -0.5em;
 }
 
 .blog-post {
