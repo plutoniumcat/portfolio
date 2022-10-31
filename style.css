@@ -2,7 +2,6 @@
 fix slight offset from top left on mobile view
 remove grey background from github social icon
 change pixel measurements to em
-create pages for blog posts
 fix centered text on message input
 add dot texture to header
 fix hover effect on navbar
@@ -234,6 +233,16 @@ main {
     overflow: hidden;
 }
 
+.blog-post {
+    width: 60%
+}
+
+.blog-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 2em;
+}
+
 #contact-main {
     flex-direction: column;
     align-items: center;
@@ -303,6 +312,10 @@ form #submit {
 
     .blog-text-container h2 {
         margin-bottom: -0.4em;
+    }
+
+    .blog-post {
+        width: 80%;
     }
 
     form {
