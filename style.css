@@ -173,10 +173,12 @@ main {
 }
 
 .social {
-    width: 100px;
-    height: 100px;
-    margin-left: 30px;
-    margin-right: 30px;
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 .social img {
