@@ -1,7 +1,5 @@
 /* TODO 
 fix slight offset from top left on mobile view
-remove grey background from github social icon
-change pixel measurements to em
 fix centered text on message input
 add dot texture to header
 fix hover effect on navbar
@@ -68,6 +66,12 @@ nav a {
 main {
     display: flex;
     justify-content: center;
+}
+
+.text-link {
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-weight: 700;
 }
 
 #home-main {
@@ -301,6 +305,10 @@ form #submit {
     border-style: groove;
     border-radius: 10px;
     font-size: 1.5em;
+}
+
+#error-main {
+    height: 25rem;
 }
 
 @media screen and (max-width: 640px) {
