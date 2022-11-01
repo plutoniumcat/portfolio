@@ -217,7 +217,7 @@ main {
 .blog-prev {
     background-color: var(--secondary-color);
     border-radius: 10px;
-    margin: 10px;
+    margin: 0.5rem;
     width: 45%;
     display: flex;
 }
@@ -329,6 +329,10 @@ form #submit {
 
     .blog-text-container h2 {
         margin-bottom: -0.4em;
+    }
+
+    .blog-text-container p {
+        margin-top: 0.5rem;
     }
 
     .blog-post {
