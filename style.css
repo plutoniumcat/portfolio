@@ -3,8 +3,7 @@ fix slight offset from top left on mobile view
 fix centered text on message input
 add dot texture to header
 fix hover effect on navbar
-crop and resize logo 
-404 page 
+crop and resize logo  
 make blog cards clickable  */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
@@ -14,11 +13,18 @@ make blog cards clickable  */
     --main-color: aquamarine;
     --shadow-color: aqua;
     --secondary-color: lightgrey;
+    --background-color: white;
 }
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    margin: 2rem;
 }
 
 body {
@@ -27,7 +33,7 @@ body {
 
 header {
     width: 100%;
-    height: 10%;
+    height: 10rem;
     background-color: var(--main-color);
 }
 
@@ -36,7 +42,7 @@ header {
 }
 
 nav {
-    width: 85vw;
+    width: 85%;
     font-size: 2em;
     display: flex;
 }
@@ -179,7 +185,7 @@ main {
 .social {
     width: 5rem;
     height: 5rem;
-    background-color: white;
+    background-color: var(--background-color);
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
@@ -204,6 +210,10 @@ main {
 
 .about-container {
     width: 60%;
+}
+
+.about-container p {
+    margin: 2rem 0 0 0;
 }
 
 .about-img {
@@ -237,7 +247,7 @@ main {
 
 .blog-text-container {
     width: 50%;
-    margin-left: 1em;
+    margin-left: 1rem;
     overflow: hidden;
 }
 
@@ -248,10 +258,6 @@ main {
 
 .blog-text-container h2 {
     margin-top: 0.5em;
-}
-
-.blog-text-container p {
-    margin-top: -0.5em;
 }
 
 .blog-post {
@@ -312,6 +318,11 @@ form #submit {
 }
 
 @media screen and (max-width: 640px) {
+
+    header {
+        height: 6rem;
+    }
+
     #logo {
         width: 12vh;
     }
@@ -332,7 +343,7 @@ form #submit {
 
     .blog-prev {
         width: 90%;
-        height: 7.25em;
+        height: 6.3rem;
     }
 
     .blog-text-container h2 {
