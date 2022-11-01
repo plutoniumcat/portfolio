@@ -176,9 +176,7 @@ main {
     width: 5rem;
     height: 5rem;
     background-color: var(--background-color);
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
 }
 
 .social img {
