@@ -262,6 +262,14 @@ main {
     width: 60%
 }
 
+.blog-post h2 {
+    margin: 2rem 0 2rem 0;
+}
+
+.blog-post p {
+    margin: 1em 0 1em 0;
+}
+
 .blog-image {
     width: 100%;
     border-radius: 10px;
@@ -350,9 +358,11 @@ form #submit {
     .blog-prev {
         width: 90%;
         height: 6.3rem;
+        margin-left: 0;
     }
 
     .blog-text-container h2 {
+        font-size: 1rem;
         margin-bottom: -0.4em;
     }
 
