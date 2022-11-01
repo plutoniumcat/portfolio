@@ -224,6 +224,14 @@ main {
     margin: 0.5rem;
     width: 45%;
     display: flex;
+    position: relative;
+}
+
+.blog-link {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
 }
 
 .blog-img-container {
