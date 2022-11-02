@@ -236,6 +236,7 @@ main {
     margin-top: 5rem;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 .timeline-event {
@@ -252,11 +253,23 @@ main {
     margin-right: 1.5rem;
 }
 
+.timeline-event:nth-of-type(odd) h2 {
+    left: -2rem;
+}
+
+.timeline-event:nth-of-type(odd) p {
+    margin-left: 1em;
+}
+
 .timeline-event:nth-of-type(even) {
     border-left: none;
     border-bottom: none;
     border-radius: 0 2rem 2rem 0;
     margin-left: 1.5rem;
+}
+
+.timeline-event:nth-of-type(even) h2 {
+    right: -2rem;
 }
 
 .timeline-event:first-of-type {
@@ -267,6 +280,13 @@ main {
 .timeline-event:last-of-type {
     border-bottom: none;
     border-bottom-left-radius: 0;
+}
+
+.timeline-event h2 {
+    background-color: var(--shadow-color);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    position: absolute;
 }
 
 #blog-main {
