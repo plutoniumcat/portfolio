@@ -231,6 +231,44 @@ main {
     margin: 2em;
 }
 
+.timeline {
+    width: 80%;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline-event {
+    border-style: dashed;
+    border-color: var(--shadow-color);
+    margin: -2px 0 0 0;
+    padding: 2em;
+}
+
+.timeline-event:nth-of-type(odd) {
+    border-right: none;
+    border-bottom: none;
+    border-radius: 2rem 0 0 2rem;
+    margin-right: 1.5rem;
+}
+
+.timeline-event:nth-of-type(even) {
+    border-left: none;
+    border-bottom: none;
+    border-radius: 0 2rem 2rem 0;
+    margin-left: 1.5rem;
+}
+
+.timeline-event:first-of-type {
+    border-top: none;
+    border-top-left-radius: 0;
+}
+
+.timeline-event:last-of-type {
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+}
+
 #blog-main {
     flex-wrap: wrap;
     justify-content: center;
