@@ -71,6 +71,12 @@ main {
     font-weight: 700;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 #home-main {
     flex-direction: row;
     align-items: center;
@@ -82,7 +88,7 @@ main {
 }
 
 .entry-container {
-    width: 30%;
+    width: 40%;
 }
 
 /* Styling for Graphical Component #1 */
@@ -265,8 +271,8 @@ main {
 /* Styling for Graphical Component #3 */
 
 .about-img {
-    width: 20em;
-    height: 20em;
+    width: 15em;
+    height: 15em;
     float: left;
     margin: 2em;
     overflow: hidden;
@@ -346,6 +352,7 @@ main {
     border-radius: 10px;
     margin: 0.5rem;
     width: 45%;
+    max-height: 7em;
     display: flex;
     position: relative;
 }
@@ -464,6 +471,10 @@ form #submit {
         height: 6rem;
     }
 
+    footer {
+        position: relative;
+    }
+
     #logo {
         width: 12vh;
     }
@@ -527,5 +538,25 @@ form #submit {
 
     form input {
         font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1007px) {
+
+    footer {
+        position: relative;
+    }
+
+    .entry-container {
+        width: 30%;
+    }
+
+    .about-img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .blog-prev {
+        max-height: 11.5em;
     }
 }
