@@ -84,6 +84,8 @@ main {
     width: 30%;
 }
 
+/* Styling for Graphical Component #1 */
+
 .entry {
     background-color: var(--main-color);
     background: linear-gradient(120deg, rgba(127,255,212,1) 0%, rgba(30,175,163,1) 25%, rgba(99,232,198,1) 50%, rgba(30,175,163,1) 75%, rgba(127,255,212,1) 100%);
@@ -190,6 +192,12 @@ main {
     }
 }
 
+/* Styling for Text Component #1 */
+
+.intro-container {
+    width: 40%;
+}
+
 .blink {
     animation-name: blink;
     animation-duration: 1s;
@@ -205,9 +213,7 @@ main {
     }
 }
 
-.intro-container {
-    width: 40%;
-}
+/* Styling for Graphical Component #2 */
 
 .social-container {
     display: flex;
@@ -225,6 +231,8 @@ main {
 .social img {
     width: 100%;
 }
+
+/* Styling for Text Component #2 */
 
 .button {
     background-color: var(--main-color);
@@ -247,12 +255,21 @@ main {
     margin: 2rem 0 0 0;
 }
 
+/* Styling for Graphical Component #3 */
+
 .about-img {
     width: 20em;
     height: 20em;
     float: left;
     margin: 2em;
+    overflow: hidden;
 }
+
+.about-img img {
+    width: 100%;
+}
+
+/* Styling for Graphical Component #4 */
 
 .timeline {
     width: 80%;
@@ -342,6 +359,8 @@ main {
     border-radius: 10px 0px 0px 10px;
 }
 
+/* Styling for Text Component #3 */
+
 .blog-text-container {
     width: 50%;
     margin-left: 1rem;
@@ -379,6 +398,8 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
+/* Styling for Text Component #4 */
 
 form {
     width: 60%;
