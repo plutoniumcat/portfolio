@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Handlee');
 
 :root {
     --main-text-color: black;
@@ -211,6 +212,12 @@ main {
     to {
         color: var(--main-text-color);
     }
+}
+
+.my-name {
+    font-family: "Handlee", serif;
+    font-size: 1.25em;
+    font-style: italic;
 }
 
 /* Styling for Graphical Component #2 */
