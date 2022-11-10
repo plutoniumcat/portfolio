@@ -1,6 +1,6 @@
 # Links
 
-[Portfolio Site](URL GOES HERE)
+[Portfolio Site](https://www.alexandria-toshokan.com/T1A2/index.html)
 
 [GitHub Repo](https://github.com/radiantbutterfly/portfolio)
 
@@ -24,14 +24,19 @@ The site features:
 
 # Sitemap
 
-![Sitemap](./images/sitemap.PNG)
+![Sitemap](./docs/sitemap.PNG)
 
 # Screenshots
 
+![Index page](./docs/index_desktop.png)
+![About page](./docs/about_desktop1.png)
+![Blog page](./docs/blog_desktop.png)
+![Contact page](./docs/contact_desktop.png)
+
 # Target Audience
 
-The target audience of this site is potential employers with technical knowledge relating to website development, information technology, programming languages and development stacks and software development.
+The target audience of this site is potential employers with technical knowledge relating to website development, information technology, programming languages and development stacks and software development. They would also be seeking hardworking staff with a professional attitude.
 
 # Tech Stack
 
-This project is built with HTML and CSS and is deployed on (TBA).
+This project is built with HTML and CSS and is deployed on webhosting provided by DreamHost.
